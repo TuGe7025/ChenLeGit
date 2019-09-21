@@ -1,0 +1,27 @@
+上传所有文件到暂存区
+git add .
+
+提交到暂存区
+git commit -m "输入修改事件"
+
+提交到网络上的master分支
+git push origin master
+
+创建并切换分支
+git checkout -b 输入分支名
+
+切换分支
+git checkout 要切换的分支名
+
+
+下面是配置ssh    回车后一直车
+
+ssh-keygen -t rsa -C "自己的邮箱"
+
+输入下面的是复制ssh代码
+
+clip < ~/.ssh/id_rsa.pub
+
+
+最后在github主页右上角头像打开设置，选择SSH and GPG keys 的 New SSHkey 配置 ssh
+在key里粘贴上面一行回车后会自动复制的ssh配置码 OK
